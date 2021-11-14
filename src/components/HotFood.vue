@@ -1,0 +1,44 @@
+<template>
+  <div class="hot-food">
+    <div class="hot-food-title">
+      <p>熱門美食</p>
+      <a href="#/Food">查看更多</a>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'HotFood'
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+// .hot-food {
+//   height: 660px;
+// }
+.hot-food-title {
+  height: 71px;
+  background: #738677;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.hot-food-title p {
+  font-size: 48px;
+  color: #FFFFFF;
+}
+.hot-food-title a {
+  height: 50px;
+  width: 200px;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 26px;
+  padding-top: 10px;
+  color: aliceblue;
+}
+</style>
