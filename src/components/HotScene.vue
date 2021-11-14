@@ -4,7 +4,7 @@
       <p>熱門景點</p>
       <a href="#/Scene">查看更多</a>
     </div>
-    <ul>
+    <!-- <ul>
       <li class="hot-scene-single">
         <a href="" class="scene-link">
           <img src="" alt="" class="hot-scene-image">
@@ -15,7 +15,7 @@
           </div>
         </a>
         </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
