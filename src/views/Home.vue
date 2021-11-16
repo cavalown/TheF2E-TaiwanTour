@@ -7,6 +7,7 @@
     <HotScene/>
     <HotFood/>
     <HotHotel/>
+    <HotActivity/>
     <Information/>
     <Footer />
   </div>
@@ -23,6 +24,7 @@ import HotScene from '@/components/HotScene.vue'
 import HotFood from '@/components/HotFood.vue'
 import HotHotel from '@/components/HotHotel.vue'
 import Searching from '@/components/Searching.vue'
+import HotActivity from '@/components/HotActivity.vue'
 
 export default {
   name: 'Home',
@@ -35,7 +37,8 @@ export default {
     HotScene,
     HotFood,
     HotHotel,
-    Searching
+    Searching,
+    HotActivity
   }
 }
 
