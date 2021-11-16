@@ -1,7 +1,7 @@
 <template>
   <div class="hot-activity">
     <div class="hot-activity-title">
-      <p>住宿推薦</p>
+      <p>活動推薦</p>
       <a href="#/Activity">查看更多</a>
     </div>
   </div>
