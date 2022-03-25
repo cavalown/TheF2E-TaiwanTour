@@ -1,7 +1,7 @@
 <template>
-<div class="wrap">
-  <router-view />
-</div>
+  <div class="wrap">
+    <router-view />
+  </div>
 </template>
 
 <style lang="scss">
@@ -17,13 +17,13 @@
 *,
 *::after,
 *::after {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .wrap {
   max-width: 1280px;
   margin: 0 auto;
   font-family: Noto Sans TC;
-  background: #F8F8F8;
+  background: #f8f8f8;
 }
 
 // --- Footer ---
