@@ -27,13 +27,13 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Install & Build # 執行指令
-        run: |
+        run:
           npm install
           npm run build 
           
       # Runs a single command using the runners shell
       - name: Deploy
-        uses: cavalown/github-pages-deploy-action@releases/v4
+        uses: xRealNeon/VuePagesAction@1.0.0
         with:
           ACCESS_TOKEN: ${{ secrets.THEF2E_TAIWAN_TOUR_KEY }} # Settings > Secret 建立的 ACCESS_TOKEN，推同個 repo 的話可以不需要
           BRANCH: gh-pages # deploy 到 gh-pages 這個分支
