@@ -1,45 +1,18 @@
 <template>
-  <div class="home" id="homepage">
-    <HeaderMenu/>
-    <Weather/>
-    <Searching/>
-    <Subject/>
-    <HotScene/>
-    <HotFood/>
-    <HotHotel/>
-    <HotActivity/>
-    <Information/>
-    <Footer />
+  <div class="home">
+    <img alt="Vue logo" src="../assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HeaderMenu from '@/components/HeaderMenu.vue'
-import Footer from '@/components/Footer.vue'
-import Weather from '@/components/Weather.vue'
-import Information from '@/components/Information.vue'
-import Subject from '@/components/Subject.vue'
-import HotScene from '@/components/HotScene.vue'
-import HotFood from '@/components/HotFood.vue'
-import HotHotel from '@/components/HotHotel.vue'
-import Searching from '@/components/Searching.vue'
-import HotActivity from '@/components/HotActivity.vue'
+import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HeaderMenu,
-    Footer,
-    Weather,
-    Information,
-    Subject,
-    HotScene,
-    HotFood,
-    HotHotel,
-    Searching,
-    HotActivity
-  }
-}
-
+    HelloWorld,
+  },
+};
 </script>
