@@ -1,7 +1,7 @@
 <template>
   <div class="entry">
     <div class="left-area">
-      <img src="../assets/logo2.png" alt="logo" />
+      <img src="../assets/logo.png" alt="logo" />
     </div>
     <div class="right-area">
       <div class="user-info">
