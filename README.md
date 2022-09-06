@@ -24,5 +24,7 @@ npm i --save @fortawesome/free-brands-svg-icons
 npm i --save @fortawesome/vue-fontawesome@latest-3
 ```
 
-# SEO設定
+# SEO 設定
+
 h1 台灣旅遊
+h2 熱門景點，熱門美食，熱門住宿，交通，景點，美食，住宿
