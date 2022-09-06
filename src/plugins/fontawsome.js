@@ -6,6 +6,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons"
 import {
+  faMagnifyingGlass,
   faUnlockKeyhole,
   faUser,
   faUserSecret,
@@ -17,5 +18,6 @@ library.add(
   faUser,
   faUnlockKeyhole,
   faGoogle,
-  faFacebook
+  faFacebook,
+  faMagnifyingGlass
 )

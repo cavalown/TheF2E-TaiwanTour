@@ -22,11 +22,11 @@
           <h2>註冊</h2>
           <div class="three-party-items">
             <a href="https://google.com" target="_blank">
-              <img src="@/assets/google.png" alt="google login">
+              <img src="../assets/google.png" alt="google login">
               <p>google</p>
             </a>
             <a href="https://facebook.com" target="_blank">
-              <img src="@/assets/facebook.png" alt="facebook login">
+              <img src="../assets/facebook.png" alt="facebook login">
               <p>facebook</p>
             </a>
           </div>
@@ -37,6 +37,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 export default {
   name: "Entry",
 }

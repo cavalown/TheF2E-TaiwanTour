@@ -47,7 +47,7 @@
     </div>
     <div class="contact-info">
       <a href="#" class="logo">
-        <img src="../assets/logo-footer.svg" alt="logo">
+        <img src="../assets/logo2.svg" alt="logo">
       </a>
       <article>
         <p>24小時免付費旅遊諮詢熱線：0800-011765</p>
@@ -58,6 +58,7 @@
 </template>
 
 <script>
+/* eslint-disable */
   export default {
     name: 'Footer'
   }

@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <Banner viewName="home" />
+  <div class="hotel">
+    <Banner viewName="hotel" />
     <Footer />
   </div>
 </template>
@@ -11,16 +11,16 @@ import Banner from '../components/Banner.vue';
 import Footer from '../components/Footer.vue';
 
 export default {
-  name: "Home",
+  name: "Hotel",
   components: {
     Banner,
-    Footer
-},
+    Footer,
+  },
 }
 </script>
 
 <style lang="scss">
-.home {
+.hotel {
   margin: 0 auto;
 }
 </style>

@@ -23,3 +23,6 @@ npm i --save @fortawesome/free-brands-svg-icons
 # Add the Vue Component
 npm i --save @fortawesome/vue-fontawesome@latest-3
 ```
+
+# SEO設定
+h1 台灣旅遊
